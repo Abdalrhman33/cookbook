@@ -21,6 +21,14 @@ class BasicScreen extends StatelessWidget {
           child: ImmutableWidget(),
         ),
       ),
+      drawer: Drawer(
+        child: Container(
+        color: Colors.lightBlue,
+        child: const Center(
+          child: Text("I'm a Ddrawer")
+        ),
+    ),
+    ),
     );
   }
 }
