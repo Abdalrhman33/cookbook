@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'basic_screen.dart';
 import 'immutable_widget.dart.dart';
 void main() => runApp(const MyApp());
 
@@ -7,8 +8,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: ImmutableWidget(),
+    return const MaterialApp(
+      home:  BasicScreen(),
     );
   }
 }
